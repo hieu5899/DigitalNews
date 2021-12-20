@@ -1,0 +1,48 @@
+.right
+{
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+.newst
+{
+    width: 100%;
+    height: auto;
+    font-sipxe: 13px;
+}
+.titleNews
+{
+    color: #42554e;
+    font-sipxe: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.titleNews a {
+    text-decoration: none;
+}
+
+.searchBox
+{
+    border: dashed 1px;
+}
+.searchButton
+{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+}
+.lastArticles
+{
+    padding-bottom: 20px;
+}
+.lastArticles a
+{
+    color: #42554e;
+    text-decoration: none;
+}
+

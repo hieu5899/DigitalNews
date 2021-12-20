@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: sans-serif;
+    background-color: #E7E7E7;
+}
+.container
+{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;    
+}
+
+.content
+{
+    background-image: url(../images/bg.jpg);
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+    background-size: contain;
+    padding: 0 7%;
+}
+.main
+{
+    float: left;
+    width: 70%;
+    padding: 20px;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;    
+}
+.main a
+{
+    text-decoration: none;
+    color: #42554e;
+    font-weight: bold;
+}
+
+.tittle
+{
+    font-size: 20px;
+    color: #42554e;
+    font-weight: bold;
+}
+
+.signature
+{
+    float:right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.image img
+{
+    width: 40vw;
+    height: auto;
+}
+.text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.shortDes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic 
+}
+
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
+.image_search img
+{
+    width: 20vw;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.text_search
+{   
+    font-size: 15px;
+    font-style: italic;
+}
+
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    padding: 2px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.active{
+    color: red !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .main, .right {width: 100% !important;}
+}
